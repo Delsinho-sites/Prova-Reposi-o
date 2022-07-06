@@ -1,4 +1,5 @@
 #!/bin/bash
 
 
-cat lista.txt | sed -r 's/[0-9] //g'
+cat lista.txt | sed 's/9/99/
+'
